@@ -1,0 +1,56 @@
+.task1 {
+    background-color:#e8e2cc;
+}
+.task1 h1 {
+    color: saddlebrown;
+}
+.task1 h3 {
+    color: lightsalmon;
+}
+.task1 a {
+    color: green;
+}
+.task2 ol {
+    list-style-type: upper-roman;
+}
+.task3 td {
+    min-width: 80px
+}
+.task4 {
+    background-color: green;
+}
+.task4 h1 {
+    color: white;
+}
+.task4 p {
+    color: white;
+}
+.task5 table {
+    width: 100%
+}
+.step1 {
+    background-color: red;
+    color: white;
+}
+.step2 {
+    background-color: coral;
+    color: gray;
+}
+.step3 {
+    background-color: yellow;
+    color: black;
+}
+.task7 span {
+    background-color: rgb(245, 239, 239);
+    color: coral;
+}
+.task7 blockquote {
+    background-color: rgb(245, 239, 239);
+    color: green;
+}
+.font-style {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
