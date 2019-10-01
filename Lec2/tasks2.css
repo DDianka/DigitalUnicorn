@@ -54,3 +54,28 @@
 .bold {
     font-weight: bold;
 }
+.greenword {
+    color: green;
+}
+.coralword {
+    color: coral;
+}
+.violet {
+    color: blueviolet;
+    font-style: italic;
+}
+.spring {
+    color: green;
+}
+.summer {
+    color: red;
+}
+.autumn {
+    color: orange;
+}
+.task12 table {
+    border: 1
+}
+.task12 table span {
+    font-weight: bold;
+}
