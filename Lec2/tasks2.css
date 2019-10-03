@@ -73,9 +73,19 @@
 .autumn {
     color: orange;
 }
-.task12 table {
-    border: 1
-}
 .task12 table span {
     font-weight: bold;
+}
+
+.grayback {
+    background-color: gray;
+}
+.greenback {
+    background-color: green;
+}
+.redback {
+    background-color: red;
+}
+.yellowback {
+    background-color: yellow;
 }
