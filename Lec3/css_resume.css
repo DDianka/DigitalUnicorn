@@ -9,13 +9,14 @@ img {
     width: 15%;
     border: 2px solid black;
     border-radius: 50%;
+    transition: width 0.7s;
 }
 img:hover {
     width: 20%;
     border: 3px solid black;
     border-radius: 50%;
     box-shadow: 5px 10px 20px  rgb(47, 47, 48);
-    transition: 0.7s;
+    
 }
 body {
     background-image: url('backpersik.jpg')
