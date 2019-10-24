@@ -7,11 +7,11 @@ function checkAge(age) {
 function checkAge(age) {
     return (age > 18) ? true : confirm('Родители разрешили?'); }
 
-    // задача 3
+// задача 3
     function min(a, b) {
         return (a < b) ? a : b
    }
-   // задача 4 
+// задача 4 
    let x = prompt('Enter x: ');
    let n = prompt('Enter n: ');
    function pow(x, n) {
@@ -27,7 +27,7 @@ ask (
     function() { alert('You canceled'); }
     );
 
-    // задача 6 : оба счетчика независимы и второй покажет 0, 1.
+// задача 6 : оба счетчика независимы и второй покажет 0, 1.
     function makeCounter() { 
         let count = 0;
         return function() {
@@ -41,7 +41,7 @@ ask (
         alert(counter2());
         alert(counter2());
 
-        // задача 7: не работает из-за нейминга
+        // задача 7: работает
         function Counter() { 
             let count = 0;
             this.up = function() {
@@ -52,8 +52,26 @@ ask (
             }
             }
             let counter = new Counter();
-            alert(counter.up());
-            alert(counter.up());
-            alert(counter.down());
-          // VM53:1 Uncaught SyntaxError: Identifier 'counter' has already been declared  at <anonymous>:1:1
-               
+            alert(counter.up()); // 1 
+            alert(counter.up()); // 2
+            alert(counter.down()); // 1
+      
+// задача 8: Результать вызова последней функции Hello John; 
+let phrase = 'Hello';
+if (true) {
+    let user = "John";
+    function sayHi() {
+        alert(`${phrase}, ${user}`);
+	}
+}
+sayHi();
+// задача 9: 
+function sum(a) {
+    return function(b) {
+        return a + b;
+    }
+    }
+
+
+ const sum = a => b => a + b
+ 
