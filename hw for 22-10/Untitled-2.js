@@ -74,4 +74,45 @@ function sum(a) {
 
 
  const sum = a => b => a + b
- 
+
+ // задача 10
+ let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+ function inBetween(a, b) {
+	return function(elem) {
+		if (elem >= a && elem <= b) {
+			return true;
+		}
+		return false;
+	}
+}
+arr.filter(inBetween(3, 6))
+
+function inArray(argument) {
+	return function(elem) {
+		return argument.includes(elem);
+	}
+}
+arr.filter(inArray([1, 2, 56, 10]));
+
+ // задача 11 
+ let users = [
+    {name: 'John', age: 20, surname: 'Johnson'},
+     {name: 'Pete', age: 18, surname: 'Peterson'},
+	 {name: 'Ann', age: 19, surname: 'Hathaway'},
+];
+
+function byField(fieldName) {
+	return function(a, b) {
+		if (a[fieldName] > b[fieldName]) {
+			return 1;
+		} else if (b[fieldName] > a[fieldName]) {
+		   	return -1;	
+		} 
+		return 0;
+	}
+}
+
+console.log(users.sort(byField('name')));
+console.log(users.sort(byField('age')));
+console.log(users.sort(byField('surname')));
