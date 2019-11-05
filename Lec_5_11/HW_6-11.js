@@ -178,4 +178,22 @@ let a = new A;
 let b = new B;
 console.log(a == b); // true
 
-//Задача 2
+//Задача 2    сделала через класс, т.к. через функцию не поняла.
+
+class Calculator {
+	read() {
+		this.a = Number(prompt('enter a'));
+		this.b = Number(prompt('enter b'));
+	};
+	sum() {
+		return this.a + this.b
+	};
+	mul() {
+		return this.a * this.b
+	};
+}
+
+let calculator = new Calculator;
+calculator.read();
+alert("Sum: " + calculator.sum())
+alert("Mul: " + calculator.mul())
