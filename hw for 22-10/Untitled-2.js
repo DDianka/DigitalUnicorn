@@ -80,10 +80,8 @@ function sum(a) {
 
  function inBetween(a, b) {
 	return function(elem) {
-		if (elem >= a && elem <= b) {
-			return true;
-		}
-		return false;
+        return elem >= a && elem <= b
+      
 	}
 }
 arr.filter(inBetween(3, 6))
