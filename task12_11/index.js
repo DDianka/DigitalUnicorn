@@ -19,3 +19,11 @@ const menu = document.querySelector('.menu-list');
 console.log('menu', menu)
 console.log('menu', menuBtn)
 menuBtn.addEventListener('click', () => menu.classList.toggle('active'));
+// TASK 4
+const wrapper = document.querySelector('.wrapper');
+const circle = document.querySelector('.circle');
+
+wrapper.addEventListener('click', (e) => {
+    circle.style =`top: ${e.clientY}px; left: ${e.clientX}px;`
+});
+
