@@ -1,10 +1,8 @@
-.active {
+ul.active {
     display: block;
 }
-p {
-    background-color: blue;
-}
-ul {
+
+.menu-list {
     display: none;
     background-color: red;
 }
