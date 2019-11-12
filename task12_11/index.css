@@ -1,0 +1,10 @@
+.active {
+    display: block;
+}
+p {
+    background-color: blue;
+}
+ul {
+    display: none;
+    background-color: red;
+}
