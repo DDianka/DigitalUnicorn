@@ -22,3 +22,22 @@ ul.active {
     top: 50%;
     left: 50%;
 }
+/*task 6*/
+.list {
+    position:relative;
+    background-color: palegreen;
+}
+.close{
+    cursor: pointer;
+    position: absolute;
+    color: red;
+    right: 0px;
+    top: 0px;
+}
+.listItem {
+    position:relative;
+    border: 1px solid chartreuse;
+}
+.hidden {
+    display:none
+}

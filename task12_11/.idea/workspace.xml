@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59d91e18-b4a6-4d62-819e-af5af500e8ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/carusel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carusel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carusel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +52,8 @@
       <workItem from="1573509878694" duration="461000" />
       <workItem from="1573538115039" duration="2958000" />
       <workItem from="1573541834138" duration="8301000" />
-      <workItem from="1573567069476" duration="3571000" />
+      <workItem from="1573567069476" duration="3633000" />
+      <workItem from="1574001099349" duration="8764000" />
     </task>
     <servers />
   </component>
@@ -61,7 +65,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
